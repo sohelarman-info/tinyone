@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@font-face {
+	font-family: "HelveticaNeue";
+	src: url("fonts/HelveticaNeue.eot") format("eot"),
+	url("fonts/HelveticaNeue.ttf") format("truetype"),
+	url("fonts/HelveticaNeue.svg#HelvetNeue-Regular") format("svg"),
+	url("fonts/HelveticaNeue.woff") format("woff")
+}
+/* font-family: 'PT Sans', sans-serif; */
+
+*{padding: 0; margin: 0; outline: 0}
+a{text-decoration: none}
+ul,ol{list-style: none; padding: 0;}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+/* Header part css start */
+#nav_section{
+	background-color: #fcdb00;
+}
+.nav_class{
+	padding: 30px 0;
+}
+.navbar-brand img{
+	float: left;
+}
+.navbar-brand h2{
+	font-weight: bold;
+	float: left;
+	margin-left: 10px;
+	color: #010101;
+	font-size: 30px;
+}
+.nav-link{
+	font-size: 18px;
+	font-family: HelveticaNeue;
+	color: #010101;
+	margin-left: 40px;
+	font-weight: bold;
+}
+/* Header part css end */
+
+
+/* banner section css start */
+#banner{
+	background-color: #fcdb00;
+}
+.banner_part{
+	margin-bottom: 70px;
+}
+.banner_left{
+}
+.banner_left h2{
+	margin-top: 100px;
+	color: #010101;
+	font-size: 28px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.banner_left h6{
+	color: #313841;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.banner_left p{
+	color: #555555;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.banner_left ul{
+	display: flex;
+}
+.banner_left ul li{
+	display: flex;
+	margin-right: 30px;
+}
+.banner_left ul li a{
+	display: flex;
+	margin-right: 25px;
+	font-size: 40px;
+	color: #010101;
+}
+/* banner section css end */
+
+
+/* features section css start */
+#features{
+	background-color: #fff;
+}
+.features_item{
+	margin-bottom: 100px;
+}
+.features_title{
+	margin-top: 80px;
+}
+.features_title h2{
+	text-align: center;
+	font-weight: bold;
+	color: #010101;
+	font-size: 32px;
+}
+.features_title p{
+	text-align: center;
+	color: #313841;
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+.features_icon i{
+	font-size: 50px;
+}
+.features_content h2{
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+}
+.features_content p{
+	color: #898989;
+	font-size: 16px;
+}
+/* features section css end */
+
+/* footer section css start */
+#footer{
+	background-color: #000;
+	padding-bottom: 100px;
+}
+.footer_top{
+	margin-top: 100px;
+}
+.footer_top h2{
+	color: #fcdb00;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+}
+.footer_top p{
+	color: #898989;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.subcribe{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.subcribe form input[type=text]{
+	padding: 10px;
+	width: 80%;
+	margin: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.subcribe form input[type=text]::placeholder{
+	padding-left: 20px;
+	color: #898989;
+	font-size: 16px;
+}
+.subcribe form input[type=submit]{
+	padding: 10px;
+	width: 10%;
+	background-color: #FCDB00;
+	color: #010101;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
+}
+.subcribe form input[type=submit]:hover{
+	padding: 10px;
+	width: 10%;
+	background-color: #778989;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
+}
+.social_icon{
+	text-align: center;
+	margin-bottom: 120px;
+}
+.social_icon ul{
+	display: flex;
+	justify-content: center;
+}
+.social_icon ul li{
+	margin: 15px;
+}
+.social_icon ul li a{
+	color: #FCDB00;
+	font-size: 32px;
+}
+.footer{
+}
+.footer_one p{
+color: #ffffff;
+font-size: 16px;
+line-height: 14px;
+}
+.footer_two ul li a{
+	color: #fff;
+}
+.footer_two ul li a:hover{
+	color: #FCDB00;
+}
+.footer_three ul li a{
+	color: #fff;
+}
+.footer_three ul li a:hover{
+	color: #FCDB00;
+}
+.footer_four ul li a{
+	color: #fff;
+}
+.footer_four ul li a:hover{
+	color: #FCDB00;
+}
+.footer_five ul li a{
+	color: #fff;
+}
+.footer_five ul li a:hover{
+	color: #FCDB00;
+}
+/* footer section css end */
+
+
+
+
